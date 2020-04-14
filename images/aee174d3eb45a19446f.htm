@@ -1,0 +1,61 @@
+
+<script language="javascript">
+function paymentType(strItemNo)
+{
+	var strQueryString = "";
+	
+	if (document.F1.hAssumedCategory.value == 2 && document.F1.hPhotocopyCharge.value == "true")
+	{
+		// Public user, photocopy charge
+		
+		// Removed payment choice screen. Decision has been
+		// made to let CanPrint offer users the choice.
+		//window.open("ItemDetailChoice.asp?B="+strItemNo);
+		
+		window.open("EshopRequest.asp?B=6235870&P=177483");
+	}
+	else if (document.F1.hDSR.value == "true")
+		window.open('http://www.naa.gov.au/the_collection/defence/conflicts/navy/navy_form.html');
+	else
+		window.open('http://www.naa.gov.au/the_collection/refform1.htm');
+}
+</script>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>National Archives of Australia - Custom display of  item 6235870</title>
+<link rel="stylesheet" type="text/css" href="/RecordSearch.css">
+<script language="javascript" src="/utils.htm"></script>
+<script language="javascript" src="/image.htm"></script>
+</head>
+<body>
+<form NAME="F1">
+
+	<input type="button" value="New general search" 
+		onClick="OpenTop('ResearcherScreen.asp')">
+	
+<input type="hidden" name="hAssumedCategory" value="2">
+<input TYPE="BUTTON" Value="View previous searches" onClick="OpenTop('Sets.asp')">
+<input TYPE="BUTTON" VALUE="Exit RecordSearch" onClick="OpenTop('Logon.asp?S=Logout')">
+<input TYPE="BUTTON" VALUE="Help" onClick="OpenTop('../Help/HelpItemDetail.htm')">
+<hr>
+<font SIZE="+2"><DIV ID=ITYPE></DIV></font>
+<hr SIZE="4" NOSHADE>
+
+	<input TYPE="BUTTON" Value="Customise information displayed" onClick="OpenTop('ItemMask.asp')">
+	&nbsp;&nbsp;
+	<input type="hidden" name="hDSR" value="true"><input type="hidden" name="hPhotocopyCharge" value="true" ID="Hidden1">
+</form>
+
+<SCRIPT LANGUAGE=JAVASCRIPT>
+ITYPE.innerHTML = "Custom display of &nbsp;item&nbsp;6235870";
+</SCRIPT>
+<p><b>Item details</b></p><TABLE WIDTH=100% BORDER=0><TR VALIGN=top><TD COLSPAN=3><B>Title</B><BR>FOWLER DERRICK ARTHUR WILLIAM : Service Number - V510337 : Date of birth - 15 Sep 1921 : Place of birth - NORWICH ENGLAND : Place of enlistment - ROYAL PARK VIC : Next of Kin - FOWLER HENRY</TD></TR><TR VALIGN=top><TD WIDTH=34%><B>Barcode</B><BR>6235870</TD><TD WIDTH=33%><B>Series number</B><BR><A HREF="SeriesDetail.asp?M=0&B=B884">B884</A></TD><TD WIDTH=33%><B>Series accession number</B><BR>2002/05074483</TD></TR><TR VALIGN=top><TD COLSPAN=3><B>Control symbol</B><BR>V510337</TD></TR><TR VALIGN=top><TD ><B>Contents date range</B><BR>
+	1939 - 1948</TD><TD ><B>Extent</B><BR></TD><TD ><B>Location</B><BR>Canberra</TD></TR><TR VALIGN=top><TD WIDTH=33%><B>Access status</B><BR>Not yet examined</TD><TD WIDTH=33%><B>Reason for restriction</B><BR></TD><TD WIDTH=33%><B>Date of decision</B><BR>1 Jan 1970</TD></TR><TR VALIGN=top><TD ><B>Accumulation start date</B><BR></TD><TD COLSPAN=2><B>Medium code</B><BR></TD></TR><TR VALIGN=top><TD ><B>Dimensions</B><BR></TD><TD ><B>Existence of copy (if not NAA)</B><BR></TD><TD ><B>Custodian (if not NAA)</B><BR></TD></TR><TR VALIGN=top><TD ><B>Does a sub-item description exist?</B><BR>No</TD><TD ><B>Does a copy item description exist?</B><BR>No</TD></TR><TR VALIGN=top><TD ><B>Disposal authority class number</B><BR>1010873</TD><TD ><B>Disposal status</B><BR>Enduring</TD></TR><TR VALIGN=top></TR><TR VALIGN=top><TD COLSPAN=3><B>Keyword headings</B><BR></TD></TR></TABLE><p><b>Item notes</b></p><p><form NAME="F3">
+ 				<input TYPE="BUTTON" VALUE="Request issue" onClick="OpenTop('../RequestNYE.htm')">
+ 										
+			<input TYPE="BUTTON" VALUE="Request copy" onClick="OpenTop('ECommercePassData.asp?B=6235870&NS=')">			
+			</form></p>
+</BODY>
+</HTML>
