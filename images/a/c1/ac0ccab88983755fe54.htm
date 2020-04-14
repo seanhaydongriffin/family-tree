@@ -1,0 +1,274 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0087)http://www.familysearch.org/Eng/Search/IGI/individual_record.asp?recid=11888891&ldsnn=3 -->
+<HTML><HEAD><TITLE>Individual Record</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content=Search/Ancestors/igirecord.htm name=HELP><LINK title=FS_Styles 
+href="familysearch_thomas_geneological2_files/FS_Styles.css" type=text/css 
+rel=stylesheet>
+<SCRIPT language=JavaScript>
+<!--
+function Translate(str){
+return str;
+}
+//-->
+</SCRIPT>
+
+<SCRIPT language=JavaScript>
+
+//var SelectedRecs = new Object();
+var nSlotsLeft = 50;
+var fnOldParentUnload;
+function onClickRecord(theCheckbox)
+{
+	if(theCheckbox.checked)
+	{
+		//checking
+		if(nSlotsLeft < 1)
+		{
+			alert(Translate("You have already reached the maximum number of records you may select.\nPlease download these records before selecting more"));
+			theCheckbox.checked = false;
+		}else
+		{
+			nSlotsLeft--;
+			window.open("", "window55024030", "location=no,menubar=no,innerheight=150,height=150,innerwidth=500,width=500" );
+	
+			//submit
+			document.theForm.submit();
+		}
+		
+	}else
+	{
+		//unchecking
+		//SelectedRecs[theCheckbox.name] = null;
+		nSlotsLeft++;
+	}
+}
+
+</SCRIPT>
+
+<META content="MSHTML 5.50.4134.600" name=GENERATOR></HEAD>
+<BODY vLink=#996699 link=#003366 bgColor=#ffffff leftMargin=12 topMargin=12 
+onload=document.ToHolding.reset() marginheight="12" marginwidth="12">
+<FORM name=ToHolding>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=heading2 vAlign=top noWrap align=left>Individual Record</TD>
+    <TD class=headerText vAlign=top noWrap align=right>FamilySearch™ 
+      International Genealogical Index v4.02</TD></TR>
+  <TR>
+    <TD class=heading2 vAlign=top noWrap align=left></TD>
+    <TD class=headerText vAlign=top noWrap align=right>British Isles</TD></TR>
+  <TR>
+    <TD class=headerText noWrap align=left colSpan=2>Select record to download 
+      - (50 maximum)</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD colSpan=2>
+      <HR color=#000000 noShade>
+    </TD></TR>
+  <TR>
+    <TD vAlign=top align=right width="1%"><INPUT onclick=onClickRecord(this) 
+      type=checkbox name=rec1> &nbsp; </TD>
+    <TD width="100%">
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD class=individualName colSpan=3>Thomas CAM </TD>
+          <TD noWrap align=right></TD></TR>
+        <TR>
+          <TD width="1%"><IMG height=5 alt="" 
+            src="familysearch_thomas_geneological2_files/invisible.gif" 
+          width=16></TD>
+          <TD class=individualLabel>Sex:&nbsp;</TD>
+          <TD class=individualData width="95%">M </TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD colSpan=3><IMG height=12 alt="" 
+            src="familysearch_thomas_geneological2_files/invisible.gif" 
+          width=16></TD></TR>
+        <TR>
+          <TD class=individualLabel colSpan=3>Event(s):</TD></TR>
+        <TR>
+          <TD><IMG height=5 alt="" 
+            src="familysearch_thomas_geneological2_files/invisible.gif" 
+          width=16></TD>
+          <TD class=individualLabel vAlign=top>Christening:&nbsp;</TD>
+          <TD class=individualData vAlign=top width="100%">8 Mar 1723 </TD></TR>
+        <TR>
+          <TD></TD>
+          <TD vAlign=top></TD>
+          <TD class=individualData vAlign=top>Coaley, Gloucester, England 
+        </TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD colSpan=4><IMG height=12 alt="" 
+            src="familysearch_thomas_geneological2_files/invisible.gif" 
+          width=16></TD></TR>
+        <TR>
+          <TD class=individualHeading colSpan=4>Parents:</TD></TR>
+        <TR>
+          <TD><IMG height=5 alt="" 
+            src="familysearch_thomas_geneological2_files/invisible.gif" 
+          width=16></TD>
+          <TD class=individualLabel vAlign=top>Father:&nbsp;</TD>
+          <TD class=individualData vAlign=top width="100%">John CAM </TD>
+          <TD vAlign=top align=right></TD></TR>
+        <TR>
+          <TD></TD>
+          <TD class=individualLabel vAlign=top>Mother:&nbsp;</TD>
+          <TD class=individualData vAlign=top></TD>
+          <TD vAlign=top align=right></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <HR color=#000000 noShade>
+    </TD></TR>
+  <TR>
+    <TD></TD>
+    <TD class=individualHeading>Source Information:</TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <HR color=#000000 noShade SIZE=1>
+    </TD></TR><!--tr>
+    <td><img src="../../images/invisible.gif" width="16" height="5" alt=""></td>
+    <td width="100%" valign="top"><font face="Arial, Helvetica, sans-serif">
+    < %= Server.HTMLEncode(source_info) % >
+    </font></td>
+    <td valign="top" align="right"></td>
+  </tr-->
+  <TR>
+    <TD></TD>
+    <TD>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR><!--td><img src="../../images/invisible.gif" width="16" height="5" alt=""></td>
+    <td valign="top" nowrap><font face="Arial, Helvetica, sans-serif"><strong>Batch number:</strong>&nbsp;</font></td>
+    <td width="100%" valign="top"><font face="Arial, Helvetica, sans-serif">
+    < %= Server.HTMLEncode(batch_number) % >
+    </font></td>
+    <td valign="top" align="right"></td-->
+          <TD height=21><IMG height=5 alt="" 
+            src="familysearch_thomas_geneological2_files/invisible.gif" 
+          width=16></TD>
+          <TD class=individualLabel vAlign=top noWrap height=21>Batch 
+          number:</TD>
+          <TD vAlign=top noWrap height=21><IMG height=5 alt="" 
+            src="familysearch_thomas_geneological2_files/invisible.gif" 
+          width=16></TD>
+          <TD class=individualLabel vAlign=top noWrap height=21>Dates</TD>
+          <TD vAlign=top noWrap height=21><IMG height=5 alt="" 
+            src="familysearch_thomas_geneological2_files/invisible.gif" 
+          width=16></TD>
+          <TD class=individualLabel vAlign=top noWrap height=21>Source Call 
+          No.</TD>
+          <TD vAlign=top noWrap height=21><IMG height=5 alt="" 
+            src="familysearch_thomas_geneological2_files/invisible.gif" 
+          width=16></TD>
+          <TD class=individualLabel vAlign=top noWrap height=21>Type</TD>
+          <TD vAlign=top noWrap height=21><IMG height=5 alt="" 
+            src="familysearch_thomas_geneological2_files/invisible.gif" 
+          width=16></TD>
+          <TD class=individualLabel vAlign=top noWrap height=21>Printout Call 
+            No.</TD>
+          <TD vAlign=top noWrap height=21><IMG height=5 alt="" 
+            src="familysearch_thomas_geneological2_files/invisible.gif" 
+          width=16></TD>
+          <TD class=individualLabel vAlign=top noWrap height=21>Type</TD>
+          <TD vAlign=top align=right height=21></TD></TR>
+        <TR>
+          <TD height=21></TD>
+          <TD class=individualData vAlign=top noWrap height=21>8617430</TD>
+          <TD vAlign=top noWrap height=21></TD>
+          <TD class=individualData vAlign=top height=21>-</TD>
+          <TD vAlign=top height=21></TD>
+            <TD class=individualData vAlign=top height=21><A target=_parent 
+            href="jesus_christ_latter_day_film_no_1396213.htm">1396213</A> </TD>
+          <TD vAlign=top height=21></TD>
+          <TD class=individualData vAlign=top height=21>Film</TD>
+          <TD vAlign=top height=21></TD>
+          <TD class=individualData vAlign=top height=21>NONE </TD>
+          <TD vAlign=top height=21></TD>
+          <TD class=individualData vAlign=top height=21></TD>
+          <TD vAlign=top align=right height=21></TD></TR>
+        <TR>
+          <TD></TD>
+          <TD class=individualLabel vAlign=top>Sheet:</TD>
+          <TD class=individualData vAlign=top>15 </TD>
+          <TD vAlign=top align=right></TD></TR><!--tr>
+    <td></td>
+    <td valign="top"><font face="Arial, Helvetica, sans-serif"><strong>Source:</strong></font></td>
+    <td valign="top"><font face="Arial, Helvetica, sans-serif">
+    < %= Server.HTMLEncode(source_number) % >
+    </font></td>
+    <td valign="top" align="right"></td>
+  </tr--></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <HR color=#000000 noShade>
+    </TD></TR>
+  <TR>
+    <TD></TD>
+    <TD>
+      <TABLE width="100%">
+        <TBODY>
+        <TR>
+            <TD class=headerText align=left>Return to search results </TD>
+            <TD class=headerText align=left>Prepare selected records for download 
+            </TD>
+          <TD class=headerText align=left></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <HR color=#000000 noShade>
+    </TD></TR><!--<tr>
+    <td colspan="2"><FONT COLOR=white>Gender: M Christening: 8 Mar 1723 Coaley, Gloucester, England</FONT>
+    </td>
+  </tr>--></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#ffffff 
+        border=0><TBODY>
+        <TR vAlign=top>
+          <TD><IMG height=1 alt="" 
+            src="familysearch_thomas_geneological2_files/spacer.gif" 
+        width=8></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=2 width="100%" bgColor=#ffffff 
+        border=0><TBODY>
+        <TR vAlign=top align=middle>
+          <TD width="100%">
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD width=5><IMG height=10 alt="" 
+                  src="familysearch_thomas_geneological2_files/spacer.gif" 
+                  width=6></TD>
+                <TD width="100%">
+                  <P class=copyrightText style="COLOR: #000000"><!-- FIGS_copyright_wording.inc -->© 
+                  1999-2001 by Intellectual Reserve, Inc.&nbsp; All rights 
+                  reserved.&nbsp; English approval: 3/1999<BR>
+                      Use of this site constitutes your acceptance of these Conditions 
+                      of Use (last updated: 3/22/1999).<BR>
+                      Privacy Policy (last updated: 3/22/1999).&nbsp;&nbsp;&nbsp;11 
+                      &nbsp;&nbsp;&nbsp;http://www.familysearch.org&nbsp;&nbsp;&nbsp;v.2.2.0 
+                    </P>
+                  </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#ffffff 
+        border=0><TBODY>
+        <TR vAlign=top>
+          <TD width="100%"><IMG height=1 alt="" 
+            src="familysearch_thomas_geneological2_files/spacer.gif" 
+        width=8></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#ffffff 
+        border=0><TBODY>
+        <TR>
+          <TD><IMG height=12 alt="" 
+            src="familysearch_thomas_geneological2_files/spacer.gif" width=12 
+            border=0></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></FORM>
+<FORM name=theForm action=../gedcom/SaveRecord.asp method=post 
+target=window55024030><INPUT type=hidden 
+value="11888891*3*Thomas CAM*Gender: M Christening: 8 Mar 1723 Coaley, Gloucester, England" 
+name=rec1> <INPUT id=type type=hidden value=2 name=type> </FORM></BODY></HTML>
