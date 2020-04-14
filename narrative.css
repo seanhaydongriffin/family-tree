@@ -1,0 +1,216 @@
+/* updated */
+
+/* GRAMPS Cascading Style Sheet */
+/* Standard Tags {{{1
+ */
+
+
+BODY {
+	font-family: "Bitstream Vera Serif", "Times New Roman", "Times", serif;
+	background-color: #fffffd;
+}
+P {
+	font-family: serif;
+    font-size: 8px;
+}
+IMG {
+	border: none;
+}
+
+SUP {
+    line-height: 0%;
+}
+TABLE {
+	border: none;
+	border-collapse: collapse;
+}
+TH {
+	padding: 1px;
+	padding-right: 3em;
+	font-weight: bold;
+	text-align: left;
+}
+TD {
+	vertical-align: top;
+	padding: 0;
+}
+
+
+/* main data table */
+
+
+
+TABLE.infolist {
+	border: 0;
+	font-family: serif;
+    font-size: 14px;
+	margin: 0em 2em 0em 2em;
+}
+TABLE.infolist TH A {
+	text-decoration: none;
+}
+TABLE.infolist TR > TD:first-child {
+	min-width: 6em;
+}
+TD.category {
+	padding: 4px;
+	padding-right: 0.5em;
+	font-weight: bold;
+    vertical-align: middle;
+}
+TD.thumb {
+    width: 48px;
+    text-align: center;
+}
+TD.data {
+	padding: 4px;
+	padding-right: 0.5em;
+	font-weight: bold;
+    vertical-align: middle;
+}
+TD.data2 {
+    padding-left: 4px;
+    padding-right: 0.5em;
+    font-weight: bold;
+    vertical-align: middle;
+}
+TD.data3 {
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 0.5em;
+    font-weight: bold;
+    vertical-align: middle;
+}
+TD.field {
+	padding: 4px;
+	padding-right: 0.5em;
+	background-color: #f1e8cb;
+    vertical-align: middle;
+}
+TD.field3 {
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 3em;
+    background-color: #f1e8cb;
+    vertical-align: middle;
+}
+.leftwrap {
+	float: left;
+	margin: 2px;
+	margin-right: 10px;
+}
+.rightwrap {
+	float: right;
+	margin: 2px;
+	margin-left: 10px;
+}
+.centered {
+	text-align: center;
+}
+
+
+
+/* navigation links */
+
+
+#navheader {
+	padding: 4px;
+	margin: 2px;
+}
+.navtitle {
+	font-size:	160%;
+	color: #998;
+	margin: 2px;
+	text-align: center;
+}
+.navbyline {
+	float: right;
+	font-size: 14px;
+	margin: 2px;
+	padding: 4px;
+}
+.nav {
+	margin: 0;
+	margin-bottom: 4px;
+	padding: 0px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	padding: 4px;
+	background-color: #ddddcc;
+	word-spacing: 0.5em;
+}
+
+
+/* image display */
+
+.img_navbar {
+  	margin: 0;
+  	margin-bottom: 4px;
+  	padding: 10px;
+  	font-size: 14px;
+  	font-weight: bold;
+	text-align: center;
+}
+.portrait {
+	text-align: center;
+	margin: 5px;
+	margin-right: 20px;
+	padding: 3px;
+	border-color: #110;
+	border-width: 1px;
+}
+.snapshot {
+    float: right;
+	margin: 5px;
+	margin-right: 20px;
+	padding: 3px;
+    padding-bottom: 1px;
+}
+.thumbnail {
+    font-size: 14px;
+}
+#gallery .thumbnail {
+    
+    float:left;
+    width:100px;
+    height:150px;
+    text-align:center;
+}
+.thumbnail p {
+	margin: 0;
+	padding: 0;
+	font-size: smaller;
+}
+
+
+#imgthm {
+
+ width:auto;
+ height:96px;
+ max-width:96px;
+}
+#imgthm2 {
+ 
+ width:auto;
+ height:48px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+#img {
+ min-width:640px;
+}
+
+
+/* other section ids */
+
+
+.box    { width: 158px; font-size: 12px; height: 48px; padding-left: 5px; vertical-align: middle;}
+.bvline { position: absolute; background-color: #000000; font-size: 0pt; z-index: 3; height: 1px; margin: 2px; padding: 2px;}
+.bhline { position: absolute; background-color: #000000; font-size: 0pt; z-index: 3; width: 1px; margin: 2px; padding: 2px;}
+.border { position: absolute; background-color: #000000; font-size: 0pt; z-index: 4; width: 160px; height: 50px; margin: 2px; padding: 2px;}
+.boxbg  { position: absolute; background-color: #f6f6f0; z-index: 5; width: 158px; height: 48px; margin: 2px; padding: 2px;}
+.shadow { position: absolute; background-color: #999999; z-index: 1; width: 158px; height: 48px; margin: 2px; padding: 2px;}
+.ghline { position: absolute; background-color: #999999; font-size: 0pt; z-index: 1; width: 1px; margin: 2px; padding: 2px;}
+.gvline { position: absolute; background-color: #999999; font-size: 0pt; z-index: 1; height: 1px; margin: 2px; padding: 2px;}
