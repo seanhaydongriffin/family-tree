@@ -18,23 +18,25 @@ td:nth-child(n+2), th:nth-child(n+2) {
 </style>
 </head>
 
-<h2>My Power Earnings</h2>
+<h2>My Electricity</h2>
+
+<h3>Earnings</h3>
 
 <div style="height: 300px">
   <canvas id="myChart"></canvas>
 </div>
 
-<h2>My Power Bill</h2>
+<h3>Charges</h3>
 
 <div>
   <table>
     <tr class="header-row"><th>Charge</th><th>Quantity</th><th>Rate</th><th>Total</th><th></th></tr>
-    <tr><td>Controlled Load 1</td><td>6.758 kWh</td><td>$ 0.19459</td><td>$ 1.32</td><td>dr</td></tr>
-    <tr><td>Daily Charge</td><td>3 days</td><td>$ 1.14818</td><td>$ 3.44</td><td>dr</td></tr>
-    <tr><td>Daily Charge - Controlled Load 1</td><td>3 days</td><td>$ 0.02915</td><td>$ 0.09</td><td>dr</td></tr>
-    <tr><td>Standard Solar</td><td>34.474 kWh</td><td>-$ 0.08</td><td>$ 2.76</td><td>cr</td></tr>
-    <tr><td>Peak</td><td>6.015 kWh</td><td>$ 0.29733</td><td>$ 1.79</td><td>dr</td></tr>
-    <tr class="header-row"><td><b>Total Charges</b></td><td></td><td></td><td><b>$ 3.88</b></td><td>dr</td></tr>
+    <tr><td>Controlled Load 1</td><td>10.051 kWh</td><td>$ 0.19459</td><td>$ 1.96</td><td>dr</td></tr>
+    <tr><td>Daily Charge</td><td>4 days</td><td>$ 1.14818</td><td>$ 4.59</td><td>dr</td></tr>
+    <tr><td>Daily Charge - Controlled Load 1</td><td>4 days</td><td>$ 0.02915</td><td>$ 0.12</td><td>dr</td></tr>
+    <tr><td>Standard Solar</td><td>36.717 kWh</td><td>-$ 0.08</td><td>$ 2.94</td><td>cr</td></tr>
+    <tr><td>Peak</td><td>10.361 kWh</td><td>$ 0.29733</td><td>$ 3.08</td><td>dr</td></tr>
+    <tr class="header-row"><td><b>Total Charges</b></td><td></td><td></td><td><b>$ 6.81</b></td><td>dr</td></tr>
   </table>
 </div>
 
@@ -46,14 +48,14 @@ td:nth-child(n+2), th:nth-child(n+2) {
   new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: ['14 May','15 May','16 May'],
+      labels: ['14 May','15 May','16 May','17 May'],
       datasets: [{
         label: 'Daily Earnings',
-        data: [-2.2079770399999994,-0.59814208999999963,-1.07143004],
+        data: [-2.2079770399999994,-0.59814208999999963,-2.7245825799999981,-1.2777185100000001],
         borderWidth: 1
       },{
         label: 'Total Earnings',
-        data: [-2.2079770399999994,-2.806119129999999,-3.8775491699999991],
+        data: [-2.2079770399999994,-2.806119129999999,-5.5307017099999971,-6.8084202199999968],
         borderWidth: 1,
         type: 'line'
       }]
