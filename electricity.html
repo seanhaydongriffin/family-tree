@@ -1,5 +1,41 @@
-<div>
+<html>
+
+<head>
+<style>
+table, th, td {
+  font-family: arial, sans-serif;
+  padding: 8px;
+}
+td:first-child, th:first-child {
+  text-align: left;
+}
+td:nth-child(n+2), th:nth-child(n+2) {
+  text-align: right;
+}
+.header-row {
+  background-color: #D6EEEE;
+}
+</style>
+</head>
+
+<h2>My Power Earnings</h2>
+
+<div style="height: 300px">
   <canvas id="myChart"></canvas>
+</div>
+
+<h2>My Power Bill</h2>
+
+<div>
+  <table>
+    <tr class="header-row"><th>Charge</th><th>Quantity</th><th>Rate</th><th>Total</th><th></th></tr>
+    <tr><td>Controlled Load 1</td><td>6.758 kWh</td><td>$ 0.19459</td><td>$ 1.32</td><td>dr</td></tr>
+    <tr><td>Daily Charge</td><td>3 days</td><td>$ 1.14818</td><td>$ 3.44</td><td>dr</td></tr>
+    <tr><td>Daily Charge - Controlled Load 1</td><td>3 days</td><td>$ 0.02915</td><td>$ 0.09</td><td>dr</td></tr>
+    <tr><td>Standard Solar</td><td>34.474 kWh</td><td>-$ 0.08</td><td>$ 2.76</td><td>cr</td></tr>
+    <tr><td>Peak</td><td>6.015 kWh</td><td>$ 0.29733</td><td>$ 1.79</td><td>dr</td></tr>
+    <tr class="header-row"><td><b>Total Charges</b></td><td></td><td></td><td><b>$ 3.88</b></td><td>dr</td></tr>
+  </table>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -10,19 +46,39 @@
   new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+      labels: ['14 May','15 May','16 May'],
       datasets: [{
-        label: '# of Votes',
-        data: [12, 19, 3, 5, 2, 3],
+        label: 'Daily Earnings',
+        data: [-2.2079770399999994,-0.59814208999999963,-1.07143004],
         borderWidth: 1
+      },{
+        label: 'Total Earnings',
+        data: [-2.2079770399999994,-2.806119129999999,-3.8775491699999991],
+        borderWidth: 1,
+        type: 'line'
       }]
     },
     options: {
       scales: {
         y: {
-          beginAtZero: true
+          beginAtZero: true,
+          ticks: {
+            callback: function(value, index, values) {
+              return '$ ' + value.toFixed(2);
+            }
+          }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.parsed.y >= 0 ? '$ ' + Math.abs(context.parsed.y).toFixed(2) + ' cr' : '$ ' + Math.abs(context.parsed.y).toFixed(2) + ' dr';
+            }
+          }
         }
       }
     }
   });
 </script>
+</html>
