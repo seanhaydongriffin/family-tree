@@ -19,11 +19,13 @@ td:nth-child(n+2), th:nth-child(n+2) {
 </head>
 
 <h2>My Electricity</h2>
-As at 17 May 2024 03:35 PM
+As at 17 May 2024 04:40 PM
 
 <h3>Cash flow</h3>
 
-<p>Positive cash flow means earnings.  Negative cash flow means spending.</p>
+A Positive cash flow means earnings.
+<br>
+A Negative cash flow means spending.
 
 <div style="height: 300px">
   <canvas id="myChart"></canvas>
@@ -34,12 +36,12 @@ As at 17 May 2024 03:35 PM
 <div>
   <table>
     <tr class="header-row"><th>Charge</th><th>Quantity</th><th>Rate</th><th>Total</th><th></th></tr>
-    <tr><td>Controlled Load 1</td><td>10.090 kWh</td><td>$ 0.19459</td><td>$ 1.96</td><td>dr</td></tr>
-    <tr><td>Daily Charge</td><td>4 days</td><td>$ 1.14818</td><td>$ 4.59</td><td>dr</td></tr>
-    <tr><td>Daily Charge - Controlled Load 1</td><td>4 days</td><td>$ 0.02915</td><td>$ 0.12</td><td>dr</td></tr>
-    <tr><td>Standard Solar</td><td>53.944 kWh</td><td>-$ 0.08</td><td>$ 4.32</td><td>cr</td></tr>
-    <tr><td>Peak</td><td>10.361 kWh</td><td>$ 0.29733</td><td>$ 3.08</td><td>dr</td></tr>
-    <tr class="header-row"><td><b>Total Charges</b></td><td></td><td></td><td><b>$ 5.44</b></td><td>dr</td></tr>
+    <tr><td>Controlled Load 1</td><td>9.761 kWh</td><td>$ 0.19459</td><td>$ 1.90</td><td>dr</td></tr>
+    <tr><td>Daily Charge</td><td>43 days</td><td>$ 1.14818</td><td>$ 49.37</td><td>dr</td></tr>
+    <tr><td>Daily Charge - Controlled Load 1</td><td>43 days</td><td>$ 0.02915</td><td>$ 1.25</td><td>dr</td></tr>
+    <tr><td>Standard Solar</td><td>54.588 kWh</td><td>-$ 0.08</td><td>$ 4.37</td><td>cr</td></tr>
+    <tr><td>Peak</td><td>10.395 kWh</td><td>$ 0.29733</td><td>$ 3.09</td><td>dr</td></tr>
+    <tr class="header-row"><td><b>Total Charges</b></td><td></td><td></td><td><b>$ 51.25</b></td><td>dr</td></tr>
   </table>
 </div>
 
@@ -51,14 +53,14 @@ As at 17 May 2024 03:35 PM
   new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: ['14 May','15 May','16 May','17 May'],
+      labels: ['14 May','15 May','16 May','17 May','18 May','19 May','20 May','21 May','22 May','23 May','24 May','25 May','26 May','27 May','28 May','29 May','30 May','31 May','01 Jun','02 Jun','03 Jun','04 Jun','05 Jun','06 Jun','07 Jun','08 Jun','09 Jun','10 Jun','11 Jun','12 Jun','13 Jun','14 Jun','15 Jun','16 Jun','17 Jun','18 Jun','19 Jun','20 Jun','21 Jun','22 Jun','23 Jun','24 Jun','25 Jun'],
       datasets: [{
         label: 'Daily cash flow',
-        data: [-2.2079770399999994,-0.59814208999999963,-2.7245825799999981,0.0928524799999999],
+        data: [-2.2079770399999994,-0.59814208999999963,-2.6605624699999995,0.13426326],
         borderWidth: 1
       },{
         label: 'Total cash flow',
-        data: [-2.2079770399999994,-2.806119129999999,-5.5307017099999971,-5.4378492299999976],
+        data: [-2.2079770399999994,-2.806119129999999,-5.4666815999999985,-5.3324183399999985],
         borderWidth: 1,
         type: 'line'
       }]
