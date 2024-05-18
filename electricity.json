@@ -1,1 +1,1 @@
-{total_energy: $v1, total_consumed_energy: $v2, total_produced_energy: $v3}
+{total_energy: , total_consumed_energy: $v2, total_produced_energy: $v3}
