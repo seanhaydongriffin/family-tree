@@ -1350,5 +1350,44 @@
     "internal_consumption_total_wh": 160777.99027777778,
     "internal_consumption_incremental_wh": 103.93638888890,
     "internal_consumption_incremental_w": 1247.23666666680000004988
+  },
+  {
+    "local_timestamp": "2024-05-21T09:04:32+1000",
+    "power_to_grid_total_wh": 179973.27805555557,
+    "power_to_grid_incremental_wh": 176.28777777779,
+    "power_to_grid_incremental_w": 2115.45333333348000008461,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 146274.0,
+    "incremental_produced_energy_wh": 125.0,
+    "incremental_produced_energy_w": 1500.00000000000000006000,
+    "internal_consumption_total_wh": 160829.27805555557,
+    "internal_consumption_incremental_wh": 51.28777777779,
+    "internal_consumption_incremental_w": 615.45333333348000002461
+  },
+  {
+    "local_timestamp": "2024-05-21T09:09:33+1000",
+    "power_to_grid_total_wh": 180106.72027777779,
+    "power_to_grid_incremental_wh": 133.44222222222,
+    "power_to_grid_incremental_w": 1601.30666666664000006405,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 146539.0,
+    "incremental_produced_energy_wh": 265.0,
+    "incremental_produced_energy_w": 3180.00000000000000012720,
+    "internal_consumption_total_wh": 160697.72027777779,
+    "internal_consumption_incremental_wh": -131.55777777778,
+    "internal_consumption_incremental_w": -1578.69333333336000006314
+  },
+  {
+    "local_timestamp": "2024-05-21T09:14:34+1000",
+    "power_to_grid_total_wh": 180412.19527777779,
+    "power_to_grid_incremental_wh": 305.47500000000,
+    "power_to_grid_incremental_w": 3665.70000000000000014662,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 146766.0,
+    "incremental_produced_energy_wh": 227.0,
+    "incremental_produced_energy_w": 2724.00000000000000010896,
+    "internal_consumption_total_wh": 160776.19527777779,
+    "internal_consumption_incremental_wh": 78.47500000000,
+    "internal_consumption_incremental_w": 941.70000000000000003766
   }
 ]
