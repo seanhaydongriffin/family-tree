@@ -1428,5 +1428,44 @@
     "internal_consumption_total_wh": 161039.58249999999,
     "internal_consumption_incremental_wh": 46.94583333333,
     "internal_consumption_incremental_w": 563.34999999996000002253
+  },
+  {
+    "local_timestamp": "2024-05-21T09:35:27+1000",
+    "power_to_grid_total_wh": 181922.34916666665,
+    "power_to_grid_incremental_wh": 648.76666666666,
+    "power_to_grid_incremental_w": 7785.19999999992000031140,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 147630.0,
+    "incremental_produced_energy_wh": 266.0,
+    "incremental_produced_energy_w": 3192.00000000000000012768,
+    "internal_consumption_total_wh": 161422.34916666665,
+    "internal_consumption_incremental_wh": 382.76666666666,
+    "internal_consumption_incremental_w": 4593.19999999992000018372
+  },
+  {
+    "local_timestamp": "2024-05-21T09:40:28+1000",
+    "power_to_grid_total_wh": 182163.23611111112,
+    "power_to_grid_incremental_wh": 240.88694444447,
+    "power_to_grid_incremental_w": 2890.64333333364000011562,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 147766.0,
+    "incremental_produced_energy_wh": 136.0,
+    "incremental_produced_energy_w": 1632.00000000000000006528,
+    "internal_consumption_total_wh": 161527.23611111112,
+    "internal_consumption_incremental_wh": 104.88694444447,
+    "internal_consumption_incremental_w": 1258.64333333364000005034
+  },
+  {
+    "local_timestamp": "2024-05-21T09:45:29+1000",
+    "power_to_grid_total_wh": 182369.11305555556,
+    "power_to_grid_incremental_wh": 205.87694444444,
+    "power_to_grid_incremental_w": 2470.52333333328000009882,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 147896.0,
+    "incremental_produced_energy_wh": 130.0,
+    "incremental_produced_energy_w": 1560.00000000000000006240,
+    "internal_consumption_total_wh": 161603.11305555556,
+    "internal_consumption_incremental_wh": 75.87694444444,
+    "internal_consumption_incremental_w": 910.52333333328000003642
   }
 ]
