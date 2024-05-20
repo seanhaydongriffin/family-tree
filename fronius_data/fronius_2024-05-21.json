@@ -1389,5 +1389,44 @@
     "internal_consumption_total_wh": 160776.19527777779,
     "internal_consumption_incremental_wh": 78.47500000000,
     "internal_consumption_incremental_w": 941.70000000000000003766
+  },
+  {
+    "local_timestamp": "2024-05-21T09:19:59+1000",
+    "power_to_grid_total_wh": 180769.24333333335,
+    "power_to_grid_incremental_wh": 357.04805555556,
+    "power_to_grid_incremental_w": 4284.57666666672000017138,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 147046.0,
+    "incremental_produced_energy_wh": 280.0,
+    "incremental_produced_energy_w": 3360.00000000000000013440,
+    "internal_consumption_total_wh": 160853.24333333335,
+    "internal_consumption_incremental_wh": 77.04805555556,
+    "internal_consumption_incremental_w": 924.57666666672000003698
+  },
+  {
+    "local_timestamp": "2024-05-21T09:25:00+1000",
+    "power_to_grid_total_wh": 181063.63666666666,
+    "power_to_grid_incremental_wh": 294.39333333331,
+    "power_to_grid_incremental_w": 3532.71999999972000014130,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 147201.0,
+    "incremental_produced_energy_wh": 155.0,
+    "incremental_produced_energy_w": 1860.00000000000000007440,
+    "internal_consumption_total_wh": 160992.63666666666,
+    "internal_consumption_incremental_wh": 139.39333333331,
+    "internal_consumption_incremental_w": 1672.71999999972000006690
+  },
+  {
+    "local_timestamp": "2024-05-21T09:30:01+1000",
+    "power_to_grid_total_wh": 181273.58249999999,
+    "power_to_grid_incremental_wh": 209.94583333333,
+    "power_to_grid_incremental_w": 2519.34999999996000010077,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 147364.0,
+    "incremental_produced_energy_wh": 163.0,
+    "incremental_produced_energy_w": 1956.00000000000000007824,
+    "internal_consumption_total_wh": 161039.58249999999,
+    "internal_consumption_incremental_wh": 46.94583333333,
+    "internal_consumption_incremental_w": 563.34999999996000002253
   }
 ]
