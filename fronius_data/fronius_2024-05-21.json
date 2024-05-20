@@ -63,5 +63,44 @@
     "internal_consumption_total_wh": 148738.65861111111,
     "internal_consumption_incremental_wh": 19.00000000000,
     "internal_consumption_incremental_w": 228.00000000000000000912
+  },
+  {
+    "local_timestamp": "2024-05-21T00:40:05+1000",
+    "power_to_grid_total_wh": 176730.65861111111,
+    "power_to_grid_incremental_wh": 0,
+    "power_to_grid_incremental_w": 0,
+    "total_consumed_energy_wh": 116721.0,
+    "total_produced_energy_wh": 144681.0,
+    "incremental_produced_energy_wh": 0,
+    "incremental_produced_energy_w": 0,
+    "internal_consumption_total_wh": 148770.65861111111,
+    "internal_consumption_incremental_wh": 32.00000000000,
+    "internal_consumption_incremental_w": 384.00000000000000001536
+  },
+  {
+    "local_timestamp": "2024-05-21T00:45:05+1000",
+    "power_to_grid_total_wh": 176730.65861111111,
+    "power_to_grid_incremental_wh": 0,
+    "power_to_grid_incremental_w": 0,
+    "total_consumed_energy_wh": 116769.0,
+    "total_produced_energy_wh": 144681.0,
+    "incremental_produced_energy_wh": 0,
+    "incremental_produced_energy_w": 0,
+    "internal_consumption_total_wh": 148818.65861111111,
+    "internal_consumption_incremental_wh": 48.00000000000,
+    "internal_consumption_incremental_w": 576.00000000000000002304
+  },
+  {
+    "local_timestamp": "2024-05-21T00:50:06+1000",
+    "power_to_grid_total_wh": 176730.65861111111,
+    "power_to_grid_incremental_wh": 0,
+    "power_to_grid_incremental_w": 0,
+    "total_consumed_energy_wh": 116800.0,
+    "total_produced_energy_wh": 144681.0,
+    "incremental_produced_energy_wh": 0,
+    "incremental_produced_energy_w": 0,
+    "internal_consumption_total_wh": 148849.65861111111,
+    "internal_consumption_incremental_wh": 31.00000000000,
+    "internal_consumption_incremental_w": 372.00000000000000001488
   }
 ]
