@@ -19,7 +19,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
 </head>
 <body>
 <h2>My Electricity</h2>
-As at 20 May 2024 10:15 AM
+As at 20 May 2024 10:18 AM
 <h3>Production</h3>
 <div style="height: 300px">
   <canvas id="myChart"></canvas>
@@ -276,8 +276,7 @@ As at 20 May 2024 10:15 AM
         borderColor: 'rgb(75, 192, 192)',
         tension: 0.1,
 		pointRadius: 0,
-		borderWidth: 2,
-		fill: false
+		borderWidth: 2
       },{
         label: 'Grid',
         data: [
@@ -399,12 +398,12 @@ As at 20 May 2024 10:15 AM
   "4741.79",
   "4913.04"
 ],
-        fill: false,
+        fill: true,
+		showLine: false,
         borderColor: 'gray',
         tension: 0.1,
 		pointRadius: 0,
-		borderWidth: 2,
-		fill: true
+		borderWidth: 2
       }]
     },
     options: {
