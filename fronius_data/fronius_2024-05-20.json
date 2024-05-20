@@ -1,103 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<style>
-table, th, td {
-  font-family: arial, sans-serif;
-  padding: 8px;
-}
-td:first-child, th:first-child {
-  text-align: left;
-}
-td:nth-child(n+2), th:nth-child(n+2) {
-  text-align: right;
-}
-.header-row {
-  background-color: #D6EEEE;
-}
-</style>
-</head>
-<body>
-<h2>My Electricity</h2>
-As at 20 May 2024 09:16 PM
-<h3>Production</h3>
-<div style="height: 300px">
-  <canvas id="myChart"></canvas>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.2/moment.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-adapter-moment/1.0.0/chartjs-adapter-moment.min.js"></script>
-<script>
-  const ctx = document.getElementById('myChart');
-  new Chart(ctx, {
-    type: 'line',
-    data: {
-      labels: [
-  "21:02",
-  "21:08"
-],
-      datasets: [{
-        label: 'Power to grid',
-        data: [
-  "1260",
-  "0"
-],
-        fill: true,
-		showLine: false,
-        borderColor: 'DarkGray',
-		backgroundColor: 'DarkGray',
-        tension: 0.1,
-		pointRadius: 0,
-		borderWidth: 2,
-		pointStyle: 'rect',
-		order: 1
-      },{
-        label: 'Consumption',
-        data: [
-  "1771159.903333333",
-  "444"
-],
-        fill: false,
-        borderColor: 'Teal',
-		backgroundColor: 'Teal',
-        tension: 0.1,
-		pointRadius: 0,
-		borderWidth: 2,
-		pointStyle: 'line',
-		order: 0
-      }]
-    },
-    options: {
-      interaction: {
-        intersect: false,
-        mode: 'index',
-      },	
-      scales: {
-        x: {
-          type: 'time',
-          time: {
-            parser: 'h:mm',
-            unit: 'hour',
-            displayFormats: {
-              hour: 'HH:mm'
-            }
-          },
-          min: '00:00',
-          max: '24:00'
-        },
-		y: {
-		  stacked: false
-		}
-      },
-	  plugins: {
-        legend: {
-          labels: {
-            usePointStyle: true
-          }
-        }
-      }
-    }	
-  });
-</script>
-</body>
-</html>
+[
+  {
+    "local_timestamp": "2024-05-20T21:02:52+1000",
+    "power_to_grid_total": 176730.6586111111,
+    "power_to_grid_incremental_wh": 272.20083333333,
+    "power_to_grid_incremental_w": 3266.40999999996,
+    "total_consumed_energy": 115547,
+    "total_produced_energy": 144681,
+    "incremental_produced_energy_wh": 105,
+    "incremental_produced_energy_w": 1260,
+    "internal_consumption_total_wh": 147596.6586111111,
+    "internal_consumption_incremental_wh": 147596.6586111111,
+    "internal_consumption_incremental_w": 1771159.903333333
+  },
+  {
+    "local_timestamp": "2024-05-20T21:08:51+1000",
+    "power_to_grid_total": 176730.6586111111,
+    "power_to_grid_incremental_wh": 0,
+    "power_to_grid_incremental_w": 0,
+    "total_consumed_energy": 115584,
+    "total_produced_energy": 144681,
+    "incremental_produced_energy_wh": 0,
+    "incremental_produced_energy_w": 0,
+    "internal_consumption_total_wh": 147633.6586111111,
+    "internal_consumption_incremental_wh": 37,
+    "internal_consumption_incremental_w": 444
+  }
+]
