@@ -6,8 +6,8 @@
     "power_to_grid_incremental_w": 2120767.9033333333,
     "total_consumed_energy_wh": 115837,
     "total_produced_energy_wh": 144681,
-    "incremental_produced_energy_wh": 144681,
-    "incremental_produced_energy_w": 1736172,
+    "incremental_produced_energy_wh": 0,
+    "incremental_produced_energy_w": 0,
     "internal_consumption_total_wh": 147886.6586111111,
     "internal_consumption_incremental_wh": 49,
     "internal_consumption_incremental_w": 588
@@ -128,5 +128,44 @@
     "internal_consumption_total_wh": 148097.6586111111,
     "internal_consumption_incremental_wh": 18,
     "internal_consumption_incremental_w": 216
+  },
+  {
+    "local_timestamp": "2024-05-20T22:28:57+1000",
+    "power_to_grid_total_wh": 176730.6586111111,
+    "power_to_grid_incremental_wh": 0,
+    "power_to_grid_incremental_w": 0,
+    "total_consumed_energy_wh": 116063,
+    "total_produced_energy_wh": 144681,
+    "incremental_produced_energy_wh": 0,
+    "incremental_produced_energy_w": 0,
+    "internal_consumption_total_wh": 148112.6586111111,
+    "internal_consumption_incremental_wh": 15,
+    "internal_consumption_incremental_w": 180
+  },
+  {
+    "local_timestamp": "2024-05-20T22:33:57+1000",
+    "power_to_grid_total_wh": 176730.6586111111,
+    "power_to_grid_incremental_wh": 0,
+    "power_to_grid_incremental_w": 0,
+    "total_consumed_energy_wh": 116081,
+    "total_produced_energy_wh": 144681,
+    "incremental_produced_energy_wh": 0,
+    "incremental_produced_energy_w": 0,
+    "internal_consumption_total_wh": 148130.6586111111,
+    "internal_consumption_incremental_wh": 18,
+    "internal_consumption_incremental_w": 216
+  },
+  {
+    "local_timestamp": "2024-05-20T22:38:58+1000",
+    "power_to_grid_total_wh": 176730.6586111111,
+    "power_to_grid_incremental_wh": 0,
+    "power_to_grid_incremental_w": 0,
+    "total_consumed_energy_wh": 116105,
+    "total_produced_energy_wh": 144681,
+    "incremental_produced_energy_wh": 0,
+    "incremental_produced_energy_w": 0,
+    "internal_consumption_total_wh": 148154.6586111111,
+    "internal_consumption_incremental_wh": 24,
+    "internal_consumption_incremental_w": 288
   }
 ]
