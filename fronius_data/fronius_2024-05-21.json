@@ -1311,5 +1311,44 @@
     "internal_consumption_total_wh": 160685.23666666666,
     "internal_consumption_incremental_wh": -9.07138888890,
     "internal_consumption_incremental_w": -108.85666666680000000435
+  },
+  {
+    "local_timestamp": "2024-05-21T08:49:06+1000",
+    "power_to_grid_total_wh": 179239.69777777776,
+    "power_to_grid_incremental_wh": 258.46111111110,
+    "power_to_grid_incremental_w": 3101.53333333320000012406,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 145700.0,
+    "incremental_produced_energy_wh": 274.0,
+    "incremental_produced_energy_w": 3288.00000000000000013152,
+    "internal_consumption_total_wh": 160669.69777777776,
+    "internal_consumption_incremental_wh": -15.53888888890,
+    "internal_consumption_incremental_w": -186.46666666680000000745
+  },
+  {
+    "local_timestamp": "2024-05-21T08:54:06+1000",
+    "power_to_grid_total_wh": 179514.05388888888,
+    "power_to_grid_incremental_wh": 274.35611111112,
+    "power_to_grid_incremental_w": 3292.27333333344000013169,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 145970.0,
+    "incremental_produced_energy_wh": 270.0,
+    "incremental_produced_energy_w": 3240.00000000000000012960,
+    "internal_consumption_total_wh": 160674.05388888888,
+    "internal_consumption_incremental_wh": 4.35611111112,
+    "internal_consumption_incremental_w": 52.27333333344000000209
+  },
+  {
+    "local_timestamp": "2024-05-21T08:59:07+1000",
+    "power_to_grid_total_wh": 179796.99027777778,
+    "power_to_grid_incremental_wh": 282.93638888890,
+    "power_to_grid_incremental_w": 3395.23666666680000013580,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 146149.0,
+    "incremental_produced_energy_wh": 179.0,
+    "incremental_produced_energy_w": 2148.00000000000000008592,
+    "internal_consumption_total_wh": 160777.99027777778,
+    "internal_consumption_incremental_wh": 103.93638888890,
+    "internal_consumption_incremental_w": 1247.23666666680000004988
   }
 ]
