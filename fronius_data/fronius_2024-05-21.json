@@ -1233,5 +1233,44 @@
     "internal_consumption_total_wh": 160303.98000000001,
     "internal_consumption_incremental_wh": 138.43111111113,
     "internal_consumption_incremental_w": 1661.17333333356000006644
+  },
+  {
+    "local_timestamp": "2024-05-21T08:18:15+1000",
+    "power_to_grid_total_wh": 178194.34638888889,
+    "power_to_grid_incremental_wh": 180.36638888888,
+    "power_to_grid_incremental_w": 2164.39666666656000008657,
+    "total_consumed_energy_wh": 127115.0,
+    "total_produced_energy_wh": 144838.0,
+    "incremental_produced_energy_wh": 15.0,
+    "incremental_produced_energy_w": 180.00000000000000000720,
+    "internal_consumption_total_wh": 160471.34638888889,
+    "internal_consumption_incremental_wh": 167.36638888888,
+    "internal_consumption_incremental_w": 2008.39666666656000008033
+  },
+  {
+    "local_timestamp": "2024-05-21T08:23:16+1000",
+    "power_to_grid_total_wh": 178396.19555555555,
+    "power_to_grid_incremental_wh": 201.84916666666,
+    "power_to_grid_incremental_w": 2422.18999999992000009688,
+    "total_consumed_energy_wh": 127124.0,
+    "total_produced_energy_wh": 144907.0,
+    "incremental_produced_energy_wh": 69.0,
+    "incremental_produced_energy_w": 828.00000000000000003312,
+    "internal_consumption_total_wh": 160613.19555555555,
+    "internal_consumption_incremental_wh": 141.84916666666,
+    "internal_consumption_incremental_w": 1702.18999999992000006808
+  },
+  {
+    "local_timestamp": "2024-05-21T08:28:16+1000",
+    "power_to_grid_total_wh": 178522.58833333335,
+    "power_to_grid_incremental_wh": 126.39277777780,
+    "power_to_grid_incremental_w": 1516.71333333360000006066,
+    "total_consumed_energy_wh": 127124.0,
+    "total_produced_energy_wh": 145020.0,
+    "incremental_produced_energy_wh": 113.0,
+    "incremental_produced_energy_w": 1356.00000000000000005424,
+    "internal_consumption_total_wh": 160626.58833333335,
+    "internal_consumption_incremental_wh": 13.39277777780,
+    "internal_consumption_incremental_w": 160.71333333360000000642
   }
 ]
