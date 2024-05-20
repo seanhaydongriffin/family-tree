@@ -1272,5 +1272,44 @@
     "internal_consumption_total_wh": 160626.58833333335,
     "internal_consumption_incremental_wh": 13.39277777780,
     "internal_consumption_incremental_w": 160.71333333360000000642
+  },
+  {
+    "local_timestamp": "2024-05-21T08:33:40+1000",
+    "power_to_grid_total_wh": 178646.51833333334,
+    "power_to_grid_incremental_wh": 123.92999999999,
+    "power_to_grid_incremental_w": 1487.15999999988000005948,
+    "total_consumed_energy_wh": 127124.0,
+    "total_produced_energy_wh": 145119.0,
+    "incremental_produced_energy_wh": 99.0,
+    "incremental_produced_energy_w": 1188.00000000000000004752,
+    "internal_consumption_total_wh": 160651.51833333334,
+    "internal_consumption_incremental_wh": 24.92999999999,
+    "internal_consumption_incremental_w": 299.15999999988000001196
+  },
+  {
+    "local_timestamp": "2024-05-21T08:38:41+1000",
+    "power_to_grid_total_wh": 178775.30805555556,
+    "power_to_grid_incremental_wh": 128.78972222222,
+    "power_to_grid_incremental_w": 1545.47666666664000006181,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 145211.0,
+    "incremental_produced_energy_wh": 92.0,
+    "incremental_produced_energy_w": 1104.00000000000000004416,
+    "internal_consumption_total_wh": 160694.30805555556,
+    "internal_consumption_incremental_wh": 42.78972222222,
+    "internal_consumption_incremental_w": 513.47666666664000002053
+  },
+  {
+    "local_timestamp": "2024-05-21T08:43:41+1000",
+    "power_to_grid_total_wh": 178981.23666666666,
+    "power_to_grid_incremental_wh": 205.92861111110,
+    "power_to_grid_incremental_w": 2471.14333333320000009884,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 145426.0,
+    "incremental_produced_energy_wh": 215.0,
+    "incremental_produced_energy_w": 2580.00000000000000010320,
+    "internal_consumption_total_wh": 160685.23666666666,
+    "internal_consumption_incremental_wh": -9.07138888890,
+    "internal_consumption_incremental_w": -108.85666666680000000435
   }
 ]
