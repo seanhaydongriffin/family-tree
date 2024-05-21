@@ -1818,5 +1818,44 @@
     "internal_consumption_total_wh": 162533.63750000001,
     "internal_consumption_incremental_wh": 52.16138888890,
     "internal_consumption_incremental_w": 625.93666666680000002503
+  },
+  {
+    "local_timestamp": "2024-05-21T12:10:48+1000",
+    "power_to_grid_total_wh": 190849.74833333332,
+    "power_to_grid_incremental_wh": 236.11083333331,
+    "power_to_grid_incremental_w": 2833.32999999972000011333,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 155415.0,
+    "incremental_produced_energy_wh": 205.0,
+    "incremental_produced_energy_w": 2460.00000000000000009840,
+    "internal_consumption_total_wh": 162564.74833333332,
+    "internal_consumption_incremental_wh": 31.11083333331,
+    "internal_consumption_incremental_w": 373.32999999972000001493
+  },
+  {
+    "local_timestamp": "2024-05-21T12:15:49+1000",
+    "power_to_grid_total_wh": 191256.53194444443,
+    "power_to_grid_incremental_wh": 406.78361111111,
+    "power_to_grid_incremental_w": 4881.40333333332000019525,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 155789.0,
+    "incremental_produced_energy_wh": 374.0,
+    "incremental_produced_energy_w": 4488.00000000000000017952,
+    "internal_consumption_total_wh": 162597.53194444443,
+    "internal_consumption_incremental_wh": 32.78361111111,
+    "internal_consumption_incremental_w": 393.40333333332000001573
+  },
+  {
+    "local_timestamp": "2024-05-21T12:20:50+1000",
+    "power_to_grid_total_wh": 191612.58249999999,
+    "power_to_grid_incremental_wh": 356.05055555556,
+    "power_to_grid_incremental_w": 4272.60666666672000017090,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 156084.0,
+    "incremental_produced_energy_wh": 295.0,
+    "incremental_produced_energy_w": 3540.00000000000000014160,
+    "internal_consumption_total_wh": 162658.58249999999,
+    "internal_consumption_incremental_wh": 61.05055555556,
+    "internal_consumption_incremental_w": 732.60666666672000002930
   }
 ]
