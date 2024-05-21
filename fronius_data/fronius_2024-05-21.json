@@ -1740,5 +1740,44 @@
     "internal_consumption_total_wh": 162062.5738888889,
     "internal_consumption_incremental_wh": 98.79555555558,
     "internal_consumption_incremental_w": 1185.54666666696000004742
+  },
+  {
+    "local_timestamp": "2024-05-21T11:39:36+1000",
+    "power_to_grid_total_wh": 188748.72916666666,
+    "power_to_grid_incremental_wh": 244.15527777776,
+    "power_to_grid_incremental_w": 2929.86333333312000011719,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 153839.0,
+    "incremental_produced_energy_wh": 267.0,
+    "incremental_produced_energy_w": 3204.00000000000000012816,
+    "internal_consumption_total_wh": 162039.72916666666,
+    "internal_consumption_incremental_wh": -22.84472222224,
+    "internal_consumption_incremental_w": -274.13666666688000001096
+  },
+  {
+    "local_timestamp": "2024-05-21T11:44:37+1000",
+    "power_to_grid_total_wh": 189027.49194444445,
+    "power_to_grid_incremental_wh": 278.76277777779,
+    "power_to_grid_incremental_w": 3345.15333333348000013380,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 154201.0,
+    "incremental_produced_energy_wh": 362.0,
+    "incremental_produced_energy_w": 4344.00000000000000017376,
+    "internal_consumption_total_wh": 161956.49194444445,
+    "internal_consumption_incremental_wh": -83.23722222221,
+    "internal_consumption_incremental_w": -998.84666666652000003995
+  },
+  {
+    "local_timestamp": "2024-05-21T11:49:38+1000",
+    "power_to_grid_total_wh": 189498.05027777777,
+    "power_to_grid_incremental_wh": 470.55833333332,
+    "power_to_grid_incremental_w": 5646.69999999984000022586,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 154505.0,
+    "incremental_produced_energy_wh": 304.0,
+    "incremental_produced_energy_w": 3648.00000000000000014592,
+    "internal_consumption_total_wh": 162123.05027777777,
+    "internal_consumption_incremental_wh": 166.55833333332,
+    "internal_consumption_incremental_w": 1998.69999999984000007994
   }
 ]
