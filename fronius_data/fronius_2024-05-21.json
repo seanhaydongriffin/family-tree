@@ -2169,5 +2169,44 @@
     "internal_consumption_total_wh": 164569.96694444446,
     "internal_consumption_incremental_wh": 143.20500000002,
     "internal_consumption_incremental_w": 1718.46000000024000006873
+  },
+  {
+    "local_timestamp": "2024-05-21T14:31:27+1000",
+    "power_to_grid_total_wh": 199064.89499999999,
+    "power_to_grid_incremental_wh": 206.92805555553,
+    "power_to_grid_incremental_w": 2483.13666666636000009932,
+    "total_consumed_energy_wh": 127188.0,
+    "total_produced_energy_wh": 161510.0,
+    "incremental_produced_energy_wh": 40.0,
+    "incremental_produced_energy_w": 480.00000000000000001920,
+    "internal_consumption_total_wh": 164742.89499999999,
+    "internal_consumption_incremental_wh": 172.92805555553,
+    "internal_consumption_incremental_w": 2075.13666666636000008300
+  },
+  {
+    "local_timestamp": "2024-05-21T14:36:28+1000",
+    "power_to_grid_total_wh": 199194.19777777776,
+    "power_to_grid_incremental_wh": 129.30277777777,
+    "power_to_grid_incremental_w": 1551.63333333324000006206,
+    "total_consumed_energy_wh": 127227.0,
+    "total_produced_energy_wh": 161527.0,
+    "incremental_produced_energy_wh": 17.0,
+    "incremental_produced_energy_w": 204.00000000000000000816,
+    "internal_consumption_total_wh": 164894.19777777776,
+    "internal_consumption_incremental_wh": 151.30277777777,
+    "internal_consumption_incremental_w": 1815.63333333324000007262
+  },
+  {
+    "local_timestamp": "2024-05-21T14:41:28+1000",
+    "power_to_grid_total_wh": 199286.64999999999,
+    "power_to_grid_incremental_wh": 92.45222222223,
+    "power_to_grid_incremental_w": 1109.42666666676000004437,
+    "total_consumed_energy_wh": 127227.0,
+    "total_produced_energy_wh": 161598.0,
+    "incremental_produced_energy_wh": 71.0,
+    "incremental_produced_energy_w": 852.00000000000000003408,
+    "internal_consumption_total_wh": 164915.64999999999,
+    "internal_consumption_incremental_wh": 21.45222222223,
+    "internal_consumption_incremental_w": 257.42666666676000001029
   }
 ]
