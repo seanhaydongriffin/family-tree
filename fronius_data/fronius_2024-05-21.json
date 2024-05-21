@@ -1779,5 +1779,44 @@
     "internal_consumption_total_wh": 162123.05027777777,
     "internal_consumption_incremental_wh": 166.55833333332,
     "internal_consumption_incremental_w": 1998.69999999984000007994
+  },
+  {
+    "local_timestamp": "2024-05-21T11:55:14+1000",
+    "power_to_grid_total_wh": 190178.70333333334,
+    "power_to_grid_incremental_wh": 680.65305555557,
+    "power_to_grid_incremental_w": 8167.83666666684000032671,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 154873.0,
+    "incremental_produced_energy_wh": 368.0,
+    "incremental_produced_energy_w": 4416.00000000000000017664,
+    "internal_consumption_total_wh": 162435.70333333334,
+    "internal_consumption_incremental_wh": 312.65305555557,
+    "internal_consumption_incremental_w": 3751.83666666684000015007
+  },
+  {
+    "local_timestamp": "2024-05-21T12:00:15+1000",
+    "power_to_grid_total_wh": 190418.47611111111,
+    "power_to_grid_incremental_wh": 239.77277777777,
+    "power_to_grid_incremental_w": 2877.27333333324000011509,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 155067.0,
+    "incremental_produced_energy_wh": 194.0,
+    "incremental_produced_energy_w": 2328.00000000000000009312,
+    "internal_consumption_total_wh": 162481.47611111111,
+    "internal_consumption_incremental_wh": 45.77277777777,
+    "internal_consumption_incremental_w": 549.27333333324000002197
+  },
+  {
+    "local_timestamp": "2024-05-21T12:05:16+1000",
+    "power_to_grid_total_wh": 190613.63750000001,
+    "power_to_grid_incremental_wh": 195.16138888890,
+    "power_to_grid_incremental_w": 2341.93666666680000009367,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 155210.0,
+    "incremental_produced_energy_wh": 143.0,
+    "incremental_produced_energy_w": 1716.00000000000000006864,
+    "internal_consumption_total_wh": 162533.63750000001,
+    "internal_consumption_incremental_wh": 52.16138888890,
+    "internal_consumption_incremental_w": 625.93666666680000002503
   }
 ]
