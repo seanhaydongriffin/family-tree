@@ -1623,5 +1623,44 @@
     "internal_consumption_total_wh": 161917.86249999999,
     "internal_consumption_incremental_wh": 13.66305555555,
     "internal_consumption_incremental_w": 163.95666666660000000655
+  },
+  {
+    "local_timestamp": "2024-05-21T10:52:58+1000",
+    "power_to_grid_total_wh": 185892.65055555556,
+    "power_to_grid_incremental_wh": 311.78805555557,
+    "power_to_grid_incremental_w": 3741.45666666684000014965,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 151119.0,
+    "incremental_produced_energy_wh": 326.0,
+    "incremental_produced_energy_w": 3912.00000000000000015648,
+    "internal_consumption_total_wh": 161903.65055555556,
+    "internal_consumption_incremental_wh": -14.21194444443,
+    "internal_consumption_incremental_w": -170.54333333316000000682
+  },
+  {
+    "local_timestamp": "2024-05-21T10:57:59+1000",
+    "power_to_grid_total_wh": 186215.23194444444,
+    "power_to_grid_incremental_wh": 322.58138888888,
+    "power_to_grid_incremental_w": 3870.97666666656000015483,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 151422.0,
+    "incremental_produced_energy_wh": 303.0,
+    "incremental_produced_energy_w": 3636.00000000000000014544,
+    "internal_consumption_total_wh": 161923.23194444444,
+    "internal_consumption_incremental_wh": 19.58138888888,
+    "internal_consumption_incremental_w": 234.97666666656000000939
+  },
+  {
+    "local_timestamp": "2024-05-21T11:02:59+1000",
+    "power_to_grid_total_wh": 186531.81805555554,
+    "power_to_grid_incremental_wh": 316.58611111110,
+    "power_to_grid_incremental_w": 3799.03333333320000015196,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 151697.0,
+    "incremental_produced_energy_wh": 275.0,
+    "incremental_produced_energy_w": 3300.00000000000000013200,
+    "internal_consumption_total_wh": 161964.81805555554,
+    "internal_consumption_incremental_wh": 41.58611111110,
+    "internal_consumption_incremental_w": 499.03333333320000001996
   }
 ]
