@@ -2130,5 +2130,44 @@
     "internal_consumption_total_wh": 164104.21166666667,
     "internal_consumption_incremental_wh": 38.02416666667,
     "internal_consumption_incremental_w": 456.29000000004000001825
+  },
+  {
+    "local_timestamp": "2024-05-21T14:15:46+1000",
+    "power_to_grid_total_wh": 198546.30638888889,
+    "power_to_grid_incremental_wh": 380.09472222222,
+    "power_to_grid_incremental_w": 4561.13666666664000018244,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 161350.0,
+    "incremental_produced_energy_wh": 158.0,
+    "incremental_produced_energy_w": 1896.00000000000000007584,
+    "internal_consumption_total_wh": 164326.30638888889,
+    "internal_consumption_incremental_wh": 222.09472222222,
+    "internal_consumption_incremental_w": 2665.13666666664000010660
+  },
+  {
+    "local_timestamp": "2024-05-21T14:20:47+1000",
+    "power_to_grid_total_wh": 198703.76194444444,
+    "power_to_grid_incremental_wh": 157.45555555555,
+    "power_to_grid_incremental_w": 1889.46666666660000007557,
+    "total_consumed_energy_wh": 127158.0,
+    "total_produced_energy_wh": 161435.0,
+    "incremental_produced_energy_wh": 85.0,
+    "incremental_produced_energy_w": 1020.00000000000000004080,
+    "internal_consumption_total_wh": 164426.76194444444,
+    "internal_consumption_incremental_wh": 100.45555555555,
+    "internal_consumption_incremental_w": 1205.46666666660000004821
+  },
+  {
+    "local_timestamp": "2024-05-21T14:25:48+1000",
+    "power_to_grid_total_wh": 198857.96694444446,
+    "power_to_grid_incremental_wh": 154.20500000002,
+    "power_to_grid_incremental_w": 1850.46000000024000007401,
+    "total_consumed_energy_wh": 127182.0,
+    "total_produced_energy_wh": 161470.0,
+    "incremental_produced_energy_wh": 35.0,
+    "incremental_produced_energy_w": 420.00000000000000001680,
+    "internal_consumption_total_wh": 164569.96694444446,
+    "internal_consumption_incremental_wh": 143.20500000002,
+    "internal_consumption_incremental_w": 1718.46000000024000006873
   }
 ]
