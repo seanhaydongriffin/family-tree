@@ -1896,5 +1896,44 @@
     "internal_consumption_total_wh": 163079.32361111112,
     "internal_consumption_incremental_wh": 239.56361111111,
     "internal_consumption_incremental_w": 2874.76333333332000011499
+  },
+  {
+    "local_timestamp": "2024-05-21T12:41:57+1000",
+    "power_to_grid_total_wh": 193373.68138888889,
+    "power_to_grid_incremental_wh": 393.35777777777,
+    "power_to_grid_incremental_w": 4720.29333333324000018881,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 157480.0,
+    "incremental_produced_energy_wh": 449.0,
+    "incremental_produced_energy_w": 5388.00000000000000021552,
+    "internal_consumption_total_wh": 163023.68138888889,
+    "internal_consumption_incremental_wh": -55.64222222223,
+    "internal_consumption_incremental_w": -667.70666666676000002670
+  },
+  {
+    "local_timestamp": "2024-05-21T12:46:58+1000",
+    "power_to_grid_total_wh": 193744.74888888889,
+    "power_to_grid_incremental_wh": 371.06750000000,
+    "power_to_grid_incremental_w": 4452.81000000000000017811,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 157830.0,
+    "incremental_produced_energy_wh": 350.0,
+    "incremental_produced_energy_w": 4200.00000000000000016800,
+    "internal_consumption_total_wh": 163044.74888888889,
+    "internal_consumption_incremental_wh": 21.06750000000,
+    "internal_consumption_incremental_w": 252.81000000000000001011
+  },
+  {
+    "local_timestamp": "2024-05-21T12:51:59+1000",
+    "power_to_grid_total_wh": 194165.36388888888,
+    "power_to_grid_incremental_wh": 420.61499999999,
+    "power_to_grid_incremental_w": 5047.37999999988000020189,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 158217.0,
+    "incremental_produced_energy_wh": 387.0,
+    "incremental_produced_energy_w": 4644.00000000000000018576,
+    "internal_consumption_total_wh": 163078.36388888888,
+    "internal_consumption_incremental_wh": 33.61499999999,
+    "internal_consumption_incremental_w": 403.37999999988000001613
   }
 ]
