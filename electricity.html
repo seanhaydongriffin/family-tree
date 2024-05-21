@@ -19,7 +19,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
 </head>
 <body>
 <h2>My Electricity</h2>
-As at 22 May 2024 12:13 AM
+As at 22 May 2024 12:16 AM
 <h3>Production</h3>
 <div style="height: 300px">
   <canvas id="myChart"></canvas>
@@ -33,31 +33,27 @@ As at 22 May 2024 12:13 AM
     type: 'line',
     data: {
       labels: [
-  "00:03",
-  "00:08",
-  "00:13"
+  "00:05",
+  "00:10"
 ],
       datasets: [{
-        label: 'Consumed directly',
+        label: 'Consumption',
         data: [
-  "2416358.66000000016009665434",
-  "0",
-  "0"
+  "300",
+  "336"
 ],
         fill: true,
-		showLine: false,
         borderColor: 'Yellow',
 		backgroundColor: 'Yellow',
         tension: 0.1,
 		pointRadius: 0,
 		borderWidth: 2,
 		pointStyle: 'rect',
-		order: 1,
+		order: 0,
 		stack: 'Stack 1'
       },{
         label: 'Power to grid',
         data: [
-  "1955100.00000000000007820400",
   "0",
   "0"
 ],
@@ -71,21 +67,6 @@ As at 22 May 2024 12:13 AM
 		pointStyle: 'rect',
 		order: 1,
 		stack: 'Stack 1'
-      },{
-        label: 'Consumption',
-        data: [
-  "2041778.66000000016008167114",
-  "324.00000000000000001296",
-  "324.00000000000000001296"
-],
-        fill: false,
-        borderColor: 'Teal',
-		backgroundColor: 'Teal',
-        tension: 0.1,
-		pointRadius: 0,
-		borderWidth: 2,
-		pointStyle: 'line',
-		order: 0
       }]
     },
     options: {
