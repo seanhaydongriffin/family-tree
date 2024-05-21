@@ -1974,5 +1974,44 @@
     "internal_consumption_total_wh": 163506.21638888889,
     "internal_consumption_incremental_wh": 171.61388888888,
     "internal_consumption_incremental_w": 2059.36666666656000008237
+  },
+  {
+    "local_timestamp": "2024-05-21T13:13:10+1000",
+    "power_to_grid_total_wh": 195640.24777777778,
+    "power_to_grid_incremental_wh": 345.03138888889,
+    "power_to_grid_incremental_w": 4140.37666666668000016561,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 159213.0,
+    "incremental_produced_energy_wh": 294.0,
+    "incremental_produced_energy_w": 3528.00000000000000014112,
+    "internal_consumption_total_wh": 163557.24777777778,
+    "internal_consumption_incremental_wh": 51.03138888889,
+    "internal_consumption_incremental_w": 612.37666666668000002449
+  },
+  {
+    "local_timestamp": "2024-05-21T13:18:11+1000",
+    "power_to_grid_total_wh": 195906.73166666666,
+    "power_to_grid_incremental_wh": 266.48388888888,
+    "power_to_grid_incremental_w": 3197.80666666656000012791,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 159319.0,
+    "incremental_produced_energy_wh": 106.0,
+    "incremental_produced_energy_w": 1272.00000000000000005088,
+    "internal_consumption_total_wh": 163717.73166666666,
+    "internal_consumption_incremental_wh": 160.48388888888,
+    "internal_consumption_incremental_w": 1925.80666666656000007703
+  },
+  {
+    "local_timestamp": "2024-05-21T13:23:12+1000",
+    "power_to_grid_total_wh": 196193.96916666668,
+    "power_to_grid_incremental_wh": 287.23750000002,
+    "power_to_grid_incremental_w": 3446.85000000024000013787,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 159544.0,
+    "incremental_produced_energy_wh": 225.0,
+    "incremental_produced_energy_w": 2700.00000000000000010800,
+    "internal_consumption_total_wh": 163779.96916666668,
+    "internal_consumption_incremental_wh": 62.23750000002,
+    "internal_consumption_incremental_w": 746.85000000024000002987
   }
 ]
