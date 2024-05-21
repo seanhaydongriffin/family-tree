@@ -2013,5 +2013,44 @@
     "internal_consumption_total_wh": 163779.96916666668,
     "internal_consumption_incremental_wh": 62.23750000002,
     "internal_consumption_incremental_w": 746.85000000024000002987
+  },
+  {
+    "local_timestamp": "2024-05-21T13:28:47+1000",
+    "power_to_grid_total_wh": 196516.46055555556,
+    "power_to_grid_incremental_wh": 322.49138888888,
+    "power_to_grid_incremental_w": 3869.89666666656000015479,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 159825.0,
+    "incremental_produced_energy_wh": 281.0,
+    "incremental_produced_energy_w": 3372.00000000000000013488,
+    "internal_consumption_total_wh": 163821.46055555556,
+    "internal_consumption_incremental_wh": 41.49138888888,
+    "internal_consumption_incremental_w": 497.89666666656000001991
+  },
+  {
+    "local_timestamp": "2024-05-21T13:33:48+1000",
+    "power_to_grid_total_wh": 196787.23749999999,
+    "power_to_grid_incremental_wh": 270.77694444443,
+    "power_to_grid_incremental_w": 3249.32333333316000012997,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 160044.0,
+    "incremental_produced_energy_wh": 219.0,
+    "incremental_produced_energy_w": 2628.00000000000000010512,
+    "internal_consumption_total_wh": 163873.23749999999,
+    "internal_consumption_incremental_wh": 51.77694444443,
+    "internal_consumption_incremental_w": 621.32333333316000002485
+  },
+  {
+    "local_timestamp": "2024-05-21T13:38:49+1000",
+    "power_to_grid_total_wh": 197031.89388888888,
+    "power_to_grid_incremental_wh": 244.65638888889,
+    "power_to_grid_incremental_w": 2935.87666666668000011743,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 160243.0,
+    "incremental_produced_energy_wh": 199.0,
+    "incremental_produced_energy_w": 2388.00000000000000009552,
+    "internal_consumption_total_wh": 163918.89388888888,
+    "internal_consumption_incremental_wh": 45.65638888889,
+    "internal_consumption_incremental_w": 547.87666666668000002191
   }
 ]
