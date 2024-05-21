@@ -1701,5 +1701,44 @@
     "internal_consumption_total_wh": 161905.26083333333,
     "internal_consumption_incremental_wh": -75.43722222222,
     "internal_consumption_incremental_w": -905.24666666664000003620
+  },
+  {
+    "local_timestamp": "2024-05-21T11:24:03+1000",
+    "power_to_grid_total_wh": 187891.97555555555,
+    "power_to_grid_incremental_wh": 425.71472222222,
+    "power_to_grid_incremental_w": 5108.57666666664000020434,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 153018.0,
+    "incremental_produced_energy_wh": 327.0,
+    "incremental_produced_energy_w": 3924.00000000000000015696,
+    "internal_consumption_total_wh": 162003.97555555555,
+    "internal_consumption_incremental_wh": 98.71472222222,
+    "internal_consumption_incremental_w": 1184.57666666664000004738
+  },
+  {
+    "local_timestamp": "2024-05-21T11:29:03+1000",
+    "power_to_grid_total_wh": 188189.77833333332,
+    "power_to_grid_incremental_wh": 297.80277777777,
+    "power_to_grid_incremental_w": 3573.63333333324000014294,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 153356.0,
+    "incremental_produced_energy_wh": 338.0,
+    "incremental_produced_energy_w": 4056.00000000000000016224,
+    "internal_consumption_total_wh": 161963.77833333332,
+    "internal_consumption_incremental_wh": -40.19722222223,
+    "internal_consumption_incremental_w": -482.36666666676000001929
+  },
+  {
+    "local_timestamp": "2024-05-21T11:34:04+1000",
+    "power_to_grid_total_wh": 188504.5738888889,
+    "power_to_grid_incremental_wh": 314.79555555558,
+    "power_to_grid_incremental_w": 3777.54666666696000015110,
+    "total_consumed_energy_wh": 127130.0,
+    "total_produced_energy_wh": 153572.0,
+    "incremental_produced_energy_wh": 216.0,
+    "incremental_produced_energy_w": 2592.00000000000000010368,
+    "internal_consumption_total_wh": 162062.5738888889,
+    "internal_consumption_incremental_wh": 98.79555555558,
+    "internal_consumption_incremental_w": 1185.54666666696000004742
   }
 ]
