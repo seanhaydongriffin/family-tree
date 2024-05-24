@@ -1,0 +1,23 @@
+[
+  {
+    "local_timestamp": "2024-05-25T00:00:00+1000",
+    "power_to_grid_total_wh": 288947.06611111108,
+    "power_to_grid_incremental_wh": 288947.06611111108,
+    "power_to_grid_incremental_w": 3467364.79333333296013869459,
+    "total_consumed_energy_wh": 156723.0,
+    "total_produced_energy_wh": 236205.0,
+    "incremental_produced_energy_wh": 0,
+    "incremental_produced_energy_w": 0,
+    "internal_consumption_total_wh": 209465.06611111108,
+    "internal_consumption_incremental_wh": 0,
+    "internal_consumption_incremental_w": 0,
+    "consumed_directly_incremental_w": 0,
+    "e_total_wh": 288947.06611111108,
+    "p_w": 0.0,
+    "p_grid_w": 226.09,
+    "p_load_w": -226.09,
+    "p_pv_w": 0.0,
+    "rel_autonomy_p": 0.0,
+    "rel_self_consumption_p": null
+  }
+]
