@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<div>
+    <canvas id="myChart"></canvas>
+</div>
+
+
+<script>
+const canvas = document.getElementById('myChart');
+canvas.height = 75;
+
+const labels = [
+  //'dju32'
+];
+
+const data = {
+  labels: labels,
+  datasets: [{
+    label: 'Consumed from solar',
+    backgroundColor: 'Green',
+    borderColor: 'Green',
+    fill: true,
+    order: 1,
+	stack: 'Stack 1'
+  },{
+    label: 'Consumed from grid',
+    backgroundColor: 'Red',
+    borderColor: 'Red',
+    fill: true,
+    order: 2,
+	stack: 'Stack 1'
+  },{
+    label: 'Produced to grid',
+    backgroundColor: 'LightGreen',
+    borderColor: 'LightGreen',
+    fill: true,
+    order: 3,
+	stack: 'Stack 1'
+  },{
+    label: 'Produced from grid',
+    backgroundColor: 'Orange',
+    borderColor: 'Orange',
+    fill: true,
+    order: 4,
+	stack: 'Stack 1'
+  }]
+};
+
+const config = {
+  type: 'line',
+  data: data,
+  options: {
+    animation: {
+        duration: 0,
+        easing: 'linear'
+    },
+    scales: {
+        y: {
+            title: {
+                display: true,
+                text: 'Watts'
+            }
+        }
+    }
+  }
+};
+
+const myChart = new Chart(
+  canvas,
+  config
+);
+
+
+var getJSON = function(url, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.responseType = 'json';
+    xhr.onload = function() {
+      var status = xhr.status;
+      if (status === 200) {
+        callback(null, xhr.response);
+      } else {
+        callback(status, xhr.response);
+      }
+    };
+    xhr.send();
+};
+
+
+
+
+// function to update the chart 
+function addData(chart, label, p_load_consumer_data, p_load_generator_data, p_grid_to_grid_data, p_grid_from_grid_data) {
+    chart.data.labels.push(label);
+    chart.data.datasets[0].data.push(p_load_consumer_data);
+    chart.data.datasets[1].data.push(p_load_generator_data);
+    chart.data.datasets[2].data.push(p_grid_to_grid_data);
+    chart.data.datasets[3].data.push(p_grid_from_grid_data);
+
+    if (chart.data.labels.length > 120)
+    {
+        chart.data.labels.shift();
+        chart.data.datasets[0].data.shift();
+        chart.data.datasets[1].data.shift();
+        chart.data.datasets[2].data.shift();
+        chart.data.datasets[3].data.shift();
+    }
+
+    chart.update();
+}
+
+// randomly add new data
+setInterval(function() {
+
+    getJSON('http://192.168.0.109/solar_api/v1/GetPowerFlowRealtimeData.fcgi',
+        function(err, data) 
+        {
+            if (err !== null) {
+                //alert('Something went wrong: ' + err);
+            } else {
+                //alert('Your query count: ' + data.Body.Data.Site.P_Load);
+
+                var d = new Date();
+                const newLabel = d.toLocaleTimeString();
+                var p_load_consumer_data = 0;
+                var p_load_generator_data = 0;
+                var p_grid_to_grid = 0;
+                var p_grid_from_grid = 0;
+
+                if (data.Body.Data.Site.P_Load < 0)
+                    p_load_consumer_data = Math.abs(data.Body.Data.Site.P_Load);
+                else
+                    p_load_generator_data = Math.abs(data.Body.Data.Site.P_Load);
+
+                if (data.Body.Data.Site.P_Grid < 0)
+                    p_grid_to_grid = Math.abs(data.Body.Data.Site.P_Grid);
+                else
+                    p_grid_from_grid = Math.abs(data.Body.Data.Site.P_Grid);
+
+                addData(myChart, newLabel, p_load_consumer_data, p_load_generator_data, p_grid_to_grid, p_grid_from_grid);
+
+            }
+        }
+    );
+
+
+}, 1000);
+
+</script>
+
+</body>
+</html>
