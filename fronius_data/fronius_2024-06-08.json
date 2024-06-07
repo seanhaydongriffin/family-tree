@@ -1,0 +1,27 @@
+[
+  {
+    "local_timestamp": "2024-06-08T00:00:01+1000",
+    "e_total": 647247.00388888887,
+    "e_incremental": 647247.00388888887,
+    "e_incremental_watts": 7766964.04666666644031067856,
+    "last_energyreal_wac_sum_produced": 519760.0,
+    "energyreal_wac_sum_produced": 519760.0,
+    "grid_production_incremental": 0,
+    "grid_production_incremental_watts": 0,
+    "last_energyreal_wac_sum_consumed": 299831.0,
+    "energyreal_wac_sum_consumed": 299831.0,
+    "grid_consumption_incremental": 0,
+    "grid_consumption_incremental_watts": 0,
+    "last_internal_consumption_total": 427318.00388888887,
+    "internal_consumption_total": 427318.00388888887,
+    "internal_consumption_incremental": 0,
+    "internal_consumption_incremental_watts": 0,
+    "consumption_incremental_watts": 0,
+    "p": 0.0,
+    "p_grid": 167.56,
+    "p_load": -167.56,
+    "p_pv": 0.0,
+    "rel_autonomy": 0.0,
+    "rel_self_consumption": null
+  }
+]
