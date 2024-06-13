@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+table, th, td {
+  font-family: arial, sans-serif;
+  padding: 8px;
+}
+td:first-child, th:first-child {
+  text-align: left;
+}
+td:nth-child(n+2), th:nth-child(n+2) {
+  text-align: right;
+}
+.header-row {
+  background-color: #D6EEEE;
+}
+</style>
+</head>
+<body>
+<h2>My Electricity</h2>
+As at 14 Jun 2024 12:10 AM
+<h3>Production</h3>
+<div style="height: 300px">
+  <canvas id="myChart"></canvas>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.2/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-adapter-moment/1.0.0/chartjs-adapter-moment.min.js"></script>
+<script>
+  const ctx = document.getElementById('myChart');
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: [
+  "00:00",
+  "00:05",
+  "00:10"
+],
+      datasets: [{
+        label: 'Consumed directly',
+        data: [
+  "0",
+  "0",
+  "0"
+],
+        fill: true,
+        borderColor: 'Yellow',
+		backgroundColor: 'Yellow',
+        tension: 0.3,
+		pointRadius: 0,
+		borderWidth: 2,
+		pointStyle: 'rect',
+		order: 1,
+		stack: 'Stack 1'
+      },{
+        label: 'Power to grid',
+        data: [
+  "0",
+  "0",
+  "0"
+],
+        fill: true,
+		showLine: false,
+        borderColor: 'DarkGray',
+		backgroundColor: 'DarkGray',
+        tension: 0.3,
+		pointRadius: 0,
+		borderWidth: 2,
+		pointStyle: 'rect',
+		order: 2,
+		stack: 'Stack 1'
+      },{
+        label: 'Consumption',
+        data: [
+  "0",
+  "288.00000000000000001152",
+  "264.00000000000000001056"
+],
+        fill: false,
+        borderColor: 'Teal',
+		backgroundColor: 'Teal',
+        tension: 0.3,
+		pointRadius: 0,
+		borderWidth: 2,
+		pointStyle: 'line',
+		order: 0
+      }]
+    },
+    options: {
+      interaction: {
+        intersect: false,
+        mode: 'index',
+      },	
+      scales: {
+        x: {
+          type: 'time',
+          time: {
+            parser: 'h:mm',
+            unit: 'hour',
+            displayFormats: {
+              hour: 'HH:mm'
+            }
+          },
+          min: '00:00',
+          max: '24:00'
+        },
+		y: {
+		  stacked: true
+		}
+      },
+	  plugins: {
+        legend: {
+          labels: {
+            usePointStyle: true
+          }
+        }
+      }
+    }	
+  });
+</script>
+</body>
+</html>
