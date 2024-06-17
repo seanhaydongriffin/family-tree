@@ -19,7 +19,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
 </head>
 <body>
 <h2>My Electricity</h2>
-As at 18 Jun 2024 12:10 AM
+As at 18 Jun 2024 12:25 AM
 <h3>Production</h3>
 <div style="height: 300px">
   <canvas id="myChart"></canvas>
@@ -35,11 +35,17 @@ As at 18 Jun 2024 12:10 AM
       labels: [
   "00:00",
   "00:05",
-  "00:10"
+  "00:10",
+  "00:15",
+  "00:20",
+  "00:25"
 ],
       datasets: [{
         label: 'Consumed directly',
         data: [
+  "0",
+  "0",
+  "0",
   "0",
   "0",
   "0"
@@ -56,6 +62,9 @@ As at 18 Jun 2024 12:10 AM
       },{
         label: 'Power to grid',
         data: [
+  "0",
+  "0",
+  "0",
   "0",
   "0",
   "0"
@@ -75,7 +84,10 @@ As at 18 Jun 2024 12:10 AM
         data: [
   "0",
   "2208.00000000000000008832",
-  "2232.00000000000000008928"
+  "2232.00000000000000008928",
+  "2208.00000000000000008832",
+  "2196.00000000000000008784",
+  "2268.00000000000000009072"
 ],
         fill: false,
         borderColor: 'Teal',
